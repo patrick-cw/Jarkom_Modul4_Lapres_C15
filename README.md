@@ -31,7 +31,7 @@ ss routing di cpt satu2 ???
 
 Perhitungan pada teknik Classless Inter Domain Routing juga didasarkan pada jumlah komputer/ host yang ada di dalam subnet. Kami menggunakan teknik ini untuk pengerjaan yang di UML.
 
-Melakukan labelling netmask terhadap masing-masing subnet yang tahap-tahapnya sebagai berikut :
+Melakukan **labelling netmask** terhadap masing-masing subnet yang tahap-tahapnya sebagai berikut :
 
 ![image](https://github.com/anggarayp/Jarkom_Modul4_Lapres_C15/blob/main/Screenshots/a-b.png)
 
@@ -51,6 +51,6 @@ Dari proses penggabungan yang telah dilakukan, didapatkan sebuah subnet besar de
 
 Lalu hitung pembagian IP dengan **tree** berdasarkan penggabungan subnet yang telah dilakukan :
 
-![image](https://github.com/anggarayp/Jarkom_Modul4_Lapres_C15/blob/main/Screenshots/tabel%20cidr.png)
+![image](https://github.com/anggarayp/Jarkom_Modul4_Lapres_C15/blob/main/Screenshots/tree%20cidr%20new%20new.png)
 
 ss routing di uml satu2 ???
