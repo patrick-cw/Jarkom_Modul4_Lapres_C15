@@ -365,6 +365,8 @@ gateway 192.168.144.1
 
 
 ROUTING
+
+
 **SURABAYA**
 ```
 route add -net 192.168.144.0 netmask 255.255.255.252 gw 192.168.192.2 
