@@ -53,7 +53,7 @@ Lalu hitung pembagian IP dengan **tree** berdasarkan penggabungan subnet yang te
 
 ![image](https://github.com/anggarayp/Jarkom_Modul4_Lapres_C15/blob/main/Screenshots/tree%20cidr%20new%20new.png)
 
-file topologi.sh
+Buat file ```topologi.sh``` dan jalankan file tersebut dengan perintah ```bash topologi.sh```.
 ```
 # Switch
 uml_switch -unix switch1 > /dev/null < /dev/null &
