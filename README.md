@@ -98,8 +98,7 @@ xterm -T LUMAJANG -e linux ubd0=LUMAJANG,jarkom umid=LUMAJANG eth0=daemon,,,swit
 xterm -T TULUNGAGUNG -e linux ubd0=TULUNGAGUNG,jarkom umid=TULUNGAGUNG eth0=daemon,,,switch20 mem=64M &
 ```
 
-Network Interfaces
-
+Lakukan setting interface pada setiap UML dengan ```nano/etc/network/interfaces```. Lalu restart dengan ```service networking restart```. Jangan lupa uncomment ```net.ipv4.ip_forward=1``` pada ```nano /etc/sysctl.conf``` di semua router.
 
 **SURABAYA**
 ```
@@ -368,8 +367,7 @@ netmask 255.255.252.0
 gateway 192.168.144.1
 ```
 
-
-ROUTING
+Setelah selesai melakukan setting interface, jalankan ```iptables –t nat –A POSTROUTING –o eth0 –j MASQUERADE –s 192.168.0.0/16``` pada uml SURABAYA agar terhubung ke internet. Lalu, lakukan routing dibawah ini dengan cara ```nano route.sh```. Ketika selesai menambahkan route, jalankan routing dengan ```bash route.sh```.
 
 
 **SURABAYA**
